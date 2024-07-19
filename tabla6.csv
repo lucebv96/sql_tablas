@@ -1,0 +1,200 @@
+﻿2;2008-09-06 08:09:52.330;35314;8;Yeah, I didn't believe it until I created a console app - but good lord!  Why would they give you the rope to hang yourself!  I hated that about VB.NET - the OrElse and AndAlso keywords!;3
+4;2008-09-06 08:42:16.980;35195;0;I don't see an accepted answer now, I wonder how that got unaccepted. Incidentally, I would have marked an accepted answer based on the answers available at the time. Also, accepted doesn't mean Best :);380
+9;2008-09-06 12:26:30.060;47239;0;Jonathan: Wow!  Thank you for all of that, you did an amazing amount of work!;4550
+10;2008-09-06 13:38:23.647;45651;6;It will help if you give some details of which database you are using as techniques vary.;242
+12;2008-09-06 13:51:47.843;47428;3;One of the things that make a url user-friendly is 'discover-ability', meaning you can take a guess at url's simply from the address bar. http://i.love.pets.com/search/cats+dogs could easily lead to http://i.love.pets.com/search/pug+puppies etc;4642
+14;2008-09-06 14:15:46.897;47481;0;I agree, both CodeRush and RefactorPro are visually impressive (most of which can be turned off BTW), but for navigating and refactoring Resharper is much better in my opinion of using both products.;4642
+15;2008-09-06 14:30:40.217;47373;0;Just wanted to mention that this is an excellent solution if you consider the problem to be linear (i.e. treating `A1B2` as a single number). I still think the problem is multi-dimensional, but I guess we'll just have to wait for the author to clarify :);2495
+16;2008-09-06 14:42:35.303;47497;1;Indeed, the only way to do this is get the server to generate your CSS file which can be done in many ways depending on which language you are using. HttpHandlers are common in C#.  You could use jQuery or the likes to add styling to every element with the class 'ourColur' and parametrise your JS;4642
+18;2008-09-06 15:02:40.980;47513;1;This advice goes against the spirit of CSS, which is separation of content and presentation. You way requires changing HTML for presentation sake, and stating in content which elements have same color.;2515
+19;2008-09-06 15:11:11.227;47466;2;It was bad when people used table for everything (because CSS did not exist yet). Now, it the other way round sometimes. Someone would describe a table functionality and ask how to do it without a table, as if tables are inherently bad. Sigh.;2515
+20;2008-09-06 15:44:39.477;1517;0;In the interests of tact, this is the kind of answer that should probably be made community wiki editable. Can someone with the right priveleges do that and add the Emacs bits?;199
+21;2008-09-06 16:00:35.147;47527;1;The Digg link was the first one I came across when going down the main page. It's purely coincidental that it also so happens to exemplify how far Digg has fallen - a story about sex addiction has been posted three times.;658
+22;2008-09-06 16:46:31.450;47626;0;concat infact doesn't do that.  I've edited my post with a decompilation of the concat method;292
+25;2008-09-06 17:37:35.757;47626;8;infact it does. Look a the first lines of your concat code. The problem with concat is that it always generates a new String();4213
+26;2008-09-06 19:15:41.277;47464;0;Yep. I have been thinking about that and will probably try it out in a later release. The only reservation I have is that the processing is far shorter than the I/O latency, so there may not be much benefit.;2353001
+27;2008-09-06 19:25:04.703;47624;4;"""Currently + is implemented using StringBuffer"" False  It's StringBuilder.   StringBuffer is the threadsafe impl of StringBuilder.";4064
+30;2008-09-06 20:14:30.777;36050;0;I am assuming that this will work *only* if the user has an MP3 player installed, correct?;4906
+31;2008-09-06 20:21:55.457;47777;11;That code will fail as .Distinct() returns an IEnumerable<T>. You have to add .ToList() to it.;3394
+33;2008-09-06 20:33:10.610;47513;0;Bloats the HTML & complicates application of styles.  E.g.,  <H1.PageTitle>  This is the title of the page</H1> I want to have ALL the style for PageTitle in the CSS. With the method proposed, I'd need to wrap the above html in <span.a=theme-color> which doubles the CSS code a;4906
+41;2008-09-06 22:32:45.003;47885;12;I don't think that's the magic number he was refering to;4213
+44;2008-09-06 22:42:13.623;47885;4;"Maybe you should remove the ""file-format"" and ""networking"" tags you added because he's clearly not talking about those kinds of magic numbers.";1597
+48;2008-09-06 23:00:58.880;47895;0;Can you be more specific on why eliminating maginc numbers ISN'T alway good?;4213
+52;2008-09-06 23:18:15.580;47937;1;Thanks! That's what I was looking for. For those wondering where to get the Profiler from the video:  http://www.codeplex.com/aspnet/Release/ProjectReleases.aspx?ReleaseId=13356;91
+59;2008-09-07 00:13:43.713;47885;8;It's still very useful to know that magic numbers may refer to more than simply a code issue.  -Adam;2915
+61;2008-09-07 00:18:11.643;47960;2;You're really going to have to be more specific...  Are you looking for websites that contain web snippets and tutorials? Code snippets themselves on a particular topic? This is a very, very general question.;2658
+62;2008-09-07 00:25:07.773;25139;0;"You should always try to use the header() function at the last moment possible (such as, before the imagepng() funciton).  The way it is now, if the php script dies ""Cannot Initialize new GD image stream"" the browser will try to interpret it as a gif, so it won't be intelligible.";1615
+63;2008-09-07 00:37:17.870;47960;0;"Have you even used any code snippets? There is no ""best"" code snippets.  There are snippets that are more ""useful"" than others, but no ""best"" snippets.  I wish i can edit the title...";4035
+64;2008-09-07 00:49:12.520;44921;4;As noted in other answers (including mine), the claims made in this answer are not correct. I would recommend deletion (if only to avoid enforcing this (probably common) misconception).;4285
+65;2008-09-07 01:09:55.887;48002;0;Hehe, of course, it's all true! That's why neither of them are really more productive and are just different!;422
+69;2008-09-07 02:17:23.370;24922;3;If you want to put something on the stack but don't know how big it is at compile time, alloca() can enlarge the stack frame to make room. There is no freea(), the entire stack frame is popped when the function returns.  Using alloca() for large allocations is fraught with peril.;4761
+70;2008-09-07 02:38:14.537;44921;0;Please see my post below where I show, in my opinion conclusively, that the switch statement does a constant time branch.;1254
+71;2008-09-07 02:43:57.440;48058;0;How would you handle the case where it wasn't a neat power of two number?;445087
+72;2008-09-07 02:50:27.970;47860;1;Can you call .vbs scripts from .bat files?;4906
+73;2008-09-07 02:51:37.203;48074;0;I agree with you 100%, however, do you have an alternative to modulus in the case where performance matters?;445087
+74;2008-09-07 03:00:30.333;48078;0;I meant division and modulus is 5-10 times faster on a micro with an integer division op code in the instruction set.;445087
+75;2008-09-07 03:09:36.163;48078;0;Oh, sorry, I misunderstood. (Clearly.) Have you profiled the other suggestion?;4798
+76;2008-09-07 03:23:43.930;48096;5;Sure. I guess I'm asking in case someone can give me some really compelling example on the side of good.;797
+77;2008-09-07 03:31:19.607;48091;0;Yes, I see that too. I changed it to 7 because 6 evently divisible by two. I'm looking for an answer that could be used for any number known up front.;445087
+79;2008-09-07 03:39:33.937;48103;5;Wow, if I ever have to do it for a number other than 7, I'll have to come back and re-read this post.;445087
+81;2008-09-07 03:44:06.703;47721;0;How big of an application did you move?  Was it mostly your typical CRUD or did you have complex Javascript?;4926
+84;2008-09-07 04:42:56.673;46135;0;"Thanks for the answer. I was assuming debug info was ""built-in"" to the binary as it is with GCC.";1891
+87;2008-09-07 06:47:04.127;48128;0;Any specific reason you are not using the built in SessionPageStatePersister? http://msdn.microsoft.com/en-us/library/system.web.ui.sessionpagestatepersister.aspx;1573
+88;2008-09-07 08:37:54.657;10714;1;As stated in the article linked in the question, the asp.net worker thread does indeed come from the runtimes thread pool.;209
+90;2008-09-07 08:40:16.337;12892;0;Thanks, but I'm looking for HttpHandlers specifically.;209
+91;2008-09-07 08:40:41.297;48257;0;What is your question? What is not working as it should?;2257
+92;2008-09-07 08:58:35.497;47509;0;This *is* the right direction, but using recursion like that breaks the O(1) restriction: The call stack will just keep growing in proportion to the word count in the input.  Also, you use reverse(foo.begin(), foo.end()) before the while loop - this is a **BUG**, as there is no way of terminating!;2260
+93;2008-09-07 09:59:02.653;44921;0;Thank you very much for your reply, Brian. Please see Ivan Hamilton's reply ((48259)[http://beta.stackoverflow.com/questions/44905/#48259]). In short: you are talking about the `switch` _instruction_ (of the CIL) which is not the same as the `switch` statement of C#.;4285
+95;2008-09-07 10:13:03.913;48259;0;The results of your experiments surprise me a bit. Did you swap yours with Brian's? His results do show an increase with size while yours don't. I'm a missing something?  In any case, thanks for the clear reply.;4285
+96;2008-09-07 11:04:35.320;48125;9;"This implementation is also nice if you wish to remove characters that look the same such as ""l"" and ""1"", ""O"" and ""0"". This is worthwhile when generating new passwords for users.";4134
+97;2008-09-07 11:41:35.807;45257;0;Cool! have you posted your code anywhere?;209
+101;2008-09-07 12:45:14.860;48383;0;Doesn't that suggest that in fact the previous socket is still there and bound to the port?  http://msdn.microsoft.com/en-us/library/cc319473.aspx  ReuseAddress   A value you use to allow binding to an address that is already in use.  *is* in use, not *has been*;4833
+108;2008-09-07 14:07:22.557;44234;5;That's not full text searching, it's searching the logs and filenames.;3408
+109;2008-09-07 14:09:22.550;44226;4;That's not full text searching, it's searching the logs and filenames.;3408
+115;2008-09-07 15:09:23.640;47509;1;Oops (concerning above comment): I failed to notice that Leon is using two different reverse() functions, and is thus not using recursion at all. My appologies! Leon, could you please edit your post and add a std:: qualifier to reverse(foo.begin(), fo.end())?;2260
+117;2008-09-07 15:24:49.157;48523;0;A side note, but people really use ObjectDataSource? I've never seen one use of it outside of MS examples...Its so ugly.;1965
+119;2008-09-07 15:27:40.740;48523;0;The ObjectDataSource was a copy&paste from the cited source. I have almost never seen it in the wild tough.;2257
+120;2008-09-07 15:28:45.917;39433;1;I'd almost hope people not know about this feature. Far preferable that they organise their code into smaller, more meaningful methods and simply use `return`, in most cases. There is a great furore at the moment around this language construct being added to PHP6.;1820
+123;2008-09-07 15:44:47.237;47714;0;VS 2008's XAML Editor doesn't recognize that as a chord.;4918
+124;2008-09-07 15:46:22.240;48383;0;"VolkerK; I think you're right.  This is where you have to be careful and make sure that the previous instance really is gone; by default, Berkley sockets will wait for 5 minutes before releasing a port/socket combination; this is the only workaround I found to work.";5021
+125;2008-09-07 15:49:04.963;48369;0;Its possible that IPAddress.Any is whats permitting this to work (its using different IP Addresses each time).   In any case, this wouldn't solve the problem (sorry for being unclear): ClassA is a network-communications manager class and the Socket is a class-wide variable.;5021
+132;2008-09-07 16:33:10.817;48259;0;It's difficult to accurately calcuate timing with such a small operation. We didn't share code, or testing procedures. I can't see why his times should increase for adjacent cases. Mine were 10x faster, so environments & test code may vary greatly.;4729
+133;2008-09-07 16:41:53.917;48502;0;"""""""To add other OpenID providers, enter the URL for your provider in the Add Provider field and click Add. Your provider must support the SeatBelt extension """"""  Unfortunately, not many OpenID providers actually support seatbelt, making it a bit of a damp squib...";4596
+134;2008-09-07 16:46:19.507;48547;0;That's a nice idea, though to be pedantic the t.Rows.Any() line won't compile as dataSet.Tables.Rows is a DataRowCollection which doesn't implement IEnumerable<T> so .Any() is not available.;3394
+135;2008-09-07 16:58:20.133;46946;0;Your statement on variance doesn't make sense. In a subtype: Covariance = the related type being subtyped & Contravariance = related type getting supertyped. This question represents a covariant (subtype used in a subtype) return type, when C# only allows an invariant (same) return type.;4729
+136;2008-09-07 17:00:53.607;48547;0;Oh, and sorry to be even more horribly critical but the extension method will not work when the dataset is null, rather a NullReferenceException will be raised. In addition IsEmpty() is returning the opposite of what it should - it indicates whether it's *not* empty!!;3394
+137;2008-09-07 17:02:17.487;48065;9;In vim you can open > 1 buffer. :e filename. Then :bn and :bp go to the next and previous buffers. I have TAB mapped to :bn in normal mode, works wonderfully. Also :split, ctrl-w to change windows... Vim does all of that.;4596
+139;2008-09-07 17:16:28.403;46940;0;Irrelevant. The question asks why can't a subtype override a method with a method whose return be a subtype of the overridee's return.;4729
+140;2008-09-07 17:20:18.397;48583;0;@macbirdie, many thanks for this suggestion. Can you provide, or link to, any examples of this approach? I'd also be interested in hearing some general techniques on securing such a script.;1944
+141;2008-09-07 17:20:31.063;47256;0;Be aware that this elegant looking solution may lead to complexities due to C# lack of generic variance support.;4729
+142;2008-09-07 17:21:04.510;43526;1;The only problem with ScintillaNET is that you'll have more unmanaged dependencies to pull Scintilla in.;2655
+144;2008-09-07 17:22:23.647;41808;0;SnippetCompiler http://www.sliver.com/dotnet/SnippetCompiler/ uses ActiPro for its editor, too.;2655
+145;2008-09-07 17:27:26.663;48571;0;Can it be done without the win32 api calls?;3055
+150;2008-09-07 17:36:56.390;36839;1;Or you could just have a list of operations, returning the first error from applying each operation in the list in sequence.;3434
+151;2008-09-07 17:38:02.720;48592;0;I've just tried this and I couldn't get it to work unfortunately. When I add the directives as suggested, I get an Internal Server Error.;1944
+153;2008-09-07 17:48:11.153;48322;0;Specifically, I am looking for a list of things to try, avoid, or watch out for.;577
+154;2008-09-07 17:51:31.503;42535;5;Sure, but what about a solution using O(1) memory?;5021
+155;2008-09-07 17:52:36.133;48571;0;@chakrit Yes, if you allready have a user-token you can follow the examples on this page: http://msdn.microsoft.com/en-us/library/w070t6ka.aspx;2257
+156;2008-09-07 18:22:17.980;36839;0;Luckily a good editor (in my case, I know VIM can do it) will reformat all your code nicely at the touch of a button.;1084
+157;2008-09-07 18:25:03.387;2962;2;Actually, windows are coupled to threads, not processes.  You can have multiple message loops per process and it will let you have several completely independent windows.;2655
+158;2008-09-07 18:32:12.107;48646;1;So, in your opinion, what *is* the point of `const int & a_foo`?  Hint: there's none.;1968
+159;2008-09-07 19:15:38.307;48266;0;"I believe the better practice is to use ""select"" instead of threading on a server.  http://ilab.cs.byu.edu/python/select/echoserver.html";2653
+162;2008-09-07 19:49:00.473;22370;0;I already have a client-side config solution in place. This no-touch requirement has newly dropped in my lap. Basically, we need to deploy to a massive amount of dummies end users with minimum administrative intervention. Thx anyway.;227
+164;2008-09-07 20:02:07.990;48675;0;HTML is in fact not a subset of XML, but rather a descendant of SGML which has significantly more lenient syntax than XML. However your suggestion is still a good one, if he is working with XHTML (which _is_ XML) then an XML diff tool is key. BeyondCompare has a plugin for XML compares also.;1996
+166;2008-09-07 20:15:03.950;48519;0;iChat screen sharing - http://www.apple.com/macosx/features/ichat.html  Apple Remote Desktop - http://www.apple.com/remotedesktop/  Back to My Mac - http://www.apple.com/mobileme/features/mac.html  Screen Sharing from Finder - http://www.apple.com/macosx/features/300.html#finder;5076
+169;2008-09-07 21:06:38.647;48778;37;"It can also be helpful to name the foreign key constraint.  This helps with troubleshooting fk violations.  For example:  ""foreign key fk_questionbank_exams ( question_exam_id ) references exams (exam_id)""";5076
+178;2008-09-07 21:52:04.983;48809;5;and thus probably illegal in most jurisdictions;4918
+191;2008-09-07 22:58:56.677;48257;0;Nothing appears to be broken, but version numbers from CA and the DB aren't what they are supposed to be.;4489
+192;2008-09-07 23:00:18.920;48654;0;The MOSS upgrade did no dependency check.;4489
+193;2008-09-07 23:09:03.410;47177;0;To clarify, the sigar api gets you system info. If you want jvm info use JMX.;828
+195;2008-09-07 23:27:10.120;48879;43;To add to this: You can also use partial classes in seperate files to manage your code a bit better. Put the inner class in a seperate file (SortedMap.TreeNode.cs in this case). This should keep your code clean, while also keeping your code seperated :);909
+196;2008-09-07 23:44:45.180;23295;1;In my question, I was more looking for what you like and dislike about a mock framework.  I can find the documentation and read all about it - I want to know what the people who have used it think of it.;2030
+198;2008-09-07 23:58:52.853;48905;1;This question might be better directed to the authors of the research paper. It's a bit esoteric for Stack Overflow. (I've always had great success contacting researchers for comment. They're usually ecstatic *anybody* is reading their work.);1412
+201;2008-09-08 00:23:00.500;48689;0;This answer though correct isn't an answer to the original question.  Can someone with Editing rights reword it?;2443
+202;2008-09-08 00:53:46.310;48938;2;That did the trick. Google reveals the compiler directive to be {$J+}.  It's also in the project options, probably should have looked there :P;369
+203;2008-09-08 00:58:22.303;48938;0;Yeah I've been struck by that before. (edited to add details after my initial post);233
+205;2008-09-08 01:30:43.787;48905;7;I think this attitude (that theoretical questions have no bearing on a pragmatic forum) is harmful and obsolete.   Pragmatic approaches should be open to new technologies, because those technologies can likely improve daily activities in the near future.  eg: functional features in c#/python.;3446
+206;2008-09-08 01:32:14.843;48905;0;That said, Chirs's comment is probably right-on, practically speaking.  I wish it weren't though.;3446
+212;2008-09-08 02:18:05.437;49029;0;Yeah, I think it is going to be like that. Especially for div.contains() type situations.;364
+215;2008-09-08 02:49:42.660;48948;17;Oh my god.  Is that the standard?  That's terrible!;2653
+217;2008-09-08 02:55:22.367;48942;2;This doesn't work with WPF.;146637
+218;2008-09-08 02:57:17.213;49080;0;FYI: This has been asked a few times in the last month, might be worth searching for those as well...;1790
+219;2008-09-08 03:00:57.673;49078;0;By this answer I meant that there is a standard way...;825
+230;2008-09-08 03:38:04.587;49097;1;That online Python interpreter is basically worthless for learning Python.  You can't define your own functions or classes, so it's not going to be much use to anyone.;1694
+231;2008-09-08 03:49:39.053;6517;0;Yes, I know which post you're talking about Justin. Reading it reminded me how most of the things I've learned have come from trying and learning from my own mistakes. I really can't emphasize enought the importance of learning by doing!;781
+233;2008-09-08 03:55:53.377;48905;0;rcreswick: I don't think the question has no bearing. I just don't think the Stack Overflow community is likely to produce a satisfactory answer.;1412
+237;2008-09-08 04:39:25.003;48948;0;There are a few other ways to do it as shown above. I really thought the same.;4960
+238;2008-09-08 05:17:40.527;49185;1;"Basically it's an ajax component, so it displays some data and then needs to special JS logic to call an action etc.  Which is why I would like it to be self contained; so you can just drop one of them in and be done with it.";1666
+239;2008-09-08 05:22:41.357;45741;0;I'd like to help, but I've read your Q several times and I'm just not sure what you are asking for. Can you try rephrasing your Q and be very precise.. e.g. you've defined a custom list -- did you define a list template or create a custom list? Why is it important that you installed it as a feature?;4489
+241;2008-09-08 05:57:45.470;49197;0;On the right track. See edit comments in question for further details.;364
+243;2008-09-08 06:09:26.923;48689;0;Can you please tell me where you see the discrepancy between the Q and A? I'll be happy to reword the answer.;4997
+245;2008-09-08 06:27:31.780;49233;0;Good idea :D.  For the record, I like your solution better than mine.;2653
+247;2008-09-08 06:37:04.750;49233;0;Thanks! That's the solution I was searching. And with curl --header it is easy and clean to secify too.;720
+248;2008-09-08 06:43:11.617;49125;2;"Good answer, but you might want to include the for ((i=0; i<MAX; i++)); do doSomething($i); done variant as well. I think this generally preferred to the for i in $(seq 0 MAX) variant as the latter will first generate all numbers from 0 to MAX before actually executing the loop.";4285
+249;2008-09-08 06:52:05.840;17392;0;thanks for the answer, but this didn't work :( see http://www.codeplex.com/blogengine/Thread/View.aspx?ThreadId=33705;209
+250;2008-09-08 06:54:52.370;44261;0;I like ceejayoz's answer bot OwenP's seems to reflect my own situation precisely. His answer also pointed me to  1. how **%HOMEDRIVE%\%HOMEPATH%** created my problem 1. And how the AutoRun registry entry would solve my problem.  Thanks to all who answered.;4491
+253;2008-09-08 07:35:27.717;41088;3;"With 2 million files, that is likely to return only a ""command line too long"" error.";4596
+254;2008-09-08 07:42:43.550;41589;0;Accepted because this deals with concurrency which is an issue with the testing since the main app thread terminates before BackgroundWorkers have completed their operation (and I got tired of adding Thread.Sleep!);832
+255;2008-09-08 07:43:08.073;47380;2;sqlprofiler is exactly what I needed, thank you!. It took me a while to figure out what events I needed to log (RPCCompleted) for my purposes, but seeing the amount of events you can log, I think it will also suit your needs as well.;46
+256;2008-09-08 07:49:22.347;49218;3;This will return an IEnumerable<int>, not a List<int>, so like aku noted, you'll want to call .ToList() on the Enumerable.Range(x,y) call.;3641
+258;2008-09-08 08:08:44.767;48605;0;This isn't only a Java related question. The java tag should be removed and the question retitled.;1772
+261;2008-09-08 08:13:13.570;49284;0;Sounds like a good excuse to deploy Firefox via Group Policy =);952
+265;2008-09-08 08:30:56.070;48547;0;Thanks for the feedback. It will work with nulls though.;905
+267;2008-09-08 08:44:00.547;48547;0;Ah, I didn't know that. That is very cool thank you for clearing that up :-);3394
+269;2008-09-08 09:25:10.760;49346;0;"By prevent, do you mean ""prevent it from appearing as a link"" or to totally prevent it from working as a link?";372
+270;2008-09-08 09:29:02.637;49311;0;Will this also get nested controls? Page.FindControl (if I remember correctly) does not search recursivly...;2260
+271;2008-09-08 09:30:55.397;49364;0;"I don't think that putting javascript in href is ""The Proper Way"", although it works.";4433
+272;2008-09-08 09:43:20.933;49345;0;Ask a question and try to give your solution as an answer so that people can vote it up or down.  Currently there is no way to vote your question up and answer down !!!;184
+274;2008-09-08 09:47:44.700;49346;0;Both, but it already doesn't look like a link, thats been done with CSS. I just need to make it not clickable too.;1127460
+275;2008-09-08 09:49:27.487;49346;0;The code that generates this link is already quite complex and I am reluctant to add yet more complexity by adding conditional code around it to output it as a label instead of a hyperlink if I can avoid it.;1127460
+276;2008-09-08 09:54:31.953;49363;0;I do not want it to appear as a link or work as a link. I know that really it should be a label under this particular circumstance. However the code involved is already quite complex and I am reluctant to add more complexity with an 'if' statement if say CSS can do the job.;1127460
+277;2008-09-08 09:59:14.827;45811;1;WebServiceX does not cover all service providers in India;4021
+278;2008-09-08 10:00:01.893;45293;0;I should have been more specific stating that I require it in India.;4021
+279;2008-09-08 10:00:22.437;49397;0;:) I liked your idea.;959
+282;2008-09-08 10:07:59.207;47841;0;Ouch. I edited this one too many times I think... now it's a community post! Oh well. :-);3394
+283;2008-09-08 10:25:17.793;39433;2;"Well, I would rather prefer to have an option to do it several ways. For example, I saw people using System.exit(1); in Servlet and EJB code, but that does not mean that we should remove System.exit(); from the JDK, right?";4052
+284;2008-09-08 10:28:34.790;49266;0;Thanks for this, it didn't quite work exactly but did point me in the right direction. Instead of undefining wxUSE_CONFIG_NATIVE, redefining wxUSE_CONFIG_NATIVE from its default of 1 to 0 instead does work.;3955
+286;2008-09-08 10:41:10.373;49404;0;@BlaM: Unfortunately the ID is a GUID and not an Int. (Which you could not know at the time). Sorry.;1008
+287;2008-09-08 10:43:26.377;49424;0;"Mark, I tried this but SQL Sercver complains abt the where clause. I didn't know you could do ""WHERE   (ThingID, PriceDateTime) IN ...""?";1008
+288;2008-09-08 10:45:42.703;46507;1;Correct - using JQuery to encrypt the email address will be useless, seeing as any Bot scrapping your HTML will not be running the JQuery.;1908
+294;2008-09-08 11:18:52.000;49479;0;"For a full list of predefined number formatting options: http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx  An alternative would be to use ToString(""D2"")";1908
+295;2008-09-08 11:24:21.427;49493;1;actually, it's svnADMIN hotcopy. Which means that this, too, will require repository filesystem access!;5083
+298;2008-09-08 11:27:32.353;49133;0;Some good arguments, indeed.;1709
+299;2008-09-08 11:29:24.160;49082;0;"That's a good question. I assume we want to find the specific needle, i.e. one you have lost in a haystack. If you just wanted to find any needle, the magnet approach suggested earlier would also work... ;)";1709
+300;2008-09-08 11:30:47.277;49311;0;It will not find controls inside a listview-type control, no.;2257
+302;2008-09-08 11:33:34.897;49505;0;your solution does not redirect to blah.domain.com but just rewrites to something.blah.domain.com/something, which is not how I read the original question.;5083
+304;2008-09-08 11:42:58.900;49505;0;I guess that is OK if they are both served by the same VirtualHost.  In particular, doing it this way means the client doesn't see the redirection - they still see something.blah.example.com.;954
+306;2008-09-08 11:56:30.723;49528;0;"I have mainly worked with SQL Server 2000, so this is a new concept to me. Technically, will that create a temporary table with all rows and then run the ""function"" over the temporary table? How does that compare in speed to my ""JOINed"" solution?";999
+310;2008-09-08 12:22:11.130;49538;0;That was fast! I thought my own solution was unique, but you came up with something similar to start with in just a few moments.;3377
+316;2008-09-08 13:01:09.523;49606;4;Actually, you don't even need a server. Simply installing TortoiseSVN and running against a local repository will suffice.;1709
+318;2008-09-08 13:21:02.270;49654;0;Nice :) Seems Prototype has learned some new tricks since I last used it!;1920
+319;2008-09-08 13:26:46.030;49683;0;Classic article, I remember when it was first published. Those were heady, exciting times.;1944
+320;2008-09-08 13:39:50.477;49606;0;Jeff's post on how to set up subversion on windows: http://www.codinghorror.com/blog/archives/001093.html;5056
+321;2008-09-08 13:39:57.760;49598;0;Yes, you are right. However because the question stated windowed applications I assumed this is the case.;1242
+322;2008-09-08 13:41:18.977;49666;3;as long as you're using MD5 as a signature, you might as well use a proper asymmetric key signature.;4926
+325;2008-09-08 13:51:28.670;49742;0;Glad someone linked to msysgit, I've had much better results with it than the 'offical' Cygwin version.;1944
+327;2008-09-08 14:16:04.180;24401;0;You are getting it wrong. I'm asking about hackers bypassing the ASP page.;2385
+328;2008-09-08 14:16:20.670;49731;7;"""unit tests which (theoretically) prove that the code actually works.""  Not to be a pedant (oh, OK, to be a pedant), unit tests don't ""prove"" anything, not even ""theoretically."" Tests build confidence in correctness, but they can't possibly cover every behavior of the";1412
+329;2008-09-08 14:20:37.680;24161;2;FlexeLint is a commercial product which has no development history in common with Johnson's original Unix Lint, AFAIK. A non-commercial alternative is Splint.;1412
+331;2008-09-08 14:23:26.190;22595;0;yes, I'm using an ASP page to do the upload, but...It is safe to give IUSR write permission to the folder? If a hacker try to post to same folder, IIS will be involved too.;2385
+332;2008-09-08 14:31:01.523;30262;13;"Label/Textbox pairs should use the <label> tag.  With a little work  _{display:block;float:left;}_ you can style all the labels in a field set to have the desired width.";3043
+333;2008-09-08 14:31:36.187;24401;0;You also cannot guarantee that the MIME type is correct since this is passed by the browser (as I recall). One should open the image via something like ImageMagik and check that the dimensions can be read properly.;157
+334;2008-09-08 14:34:08.787;49815;0;Whoa, looks like Glenn and I posted *almost* at the same time, which means we were writing our responses essentially simultaneously. Oh well, I had good intentions. :);1790
+335;2008-09-08 14:35:23.090;49802;0;Upvoted for the answer & the Charlie avatar!;2975
+336;2008-09-08 14:35:56.520;49815;0;Great minds.... :);2975
+337;2008-09-08 14:36:17.830;49813;0;Couldn't agree more. Get stuck in :);383
+338;2008-09-08 14:37:13.100;22595;0;it's probably the most convenient method. Another solution would be to connect back to the server itself and re-upload the uploaded file via FTP for example, but the security benefit for the trouble is not really worth it.;5083
+339;2008-09-08 14:38:30.040;49802;0;"Thanks ... but it's Soren Lorensen actually ;)";4309
+340;2008-09-08 14:39:02.270;49825;0;The original poster of the question didn't say he was going to be learning ASP.NET, specifically - just .NET and C#.;1790
+341;2008-09-08 14:41:10.703;49773;1;This is awesome, thanks!  I converted your code to C#, and am able to call it from a WPF application and print out the macro code in a listbox.  I will post the C# version of the code in my edited answer.;2194
+344;2008-09-08 14:52:25.420;49804;0;Is IFRAME really necessary? Can someone confirm this? I am confused.;2361
+345;2008-09-08 14:56:58.060;49743;1;Static analysis needn't actually look at the source code. It may well look at object or intermediate code. For instance, you mention FindBugs which looks at class (bytecode) files.;4725
+346;2008-09-08 14:58:53.407;40523;206;Isn't it slightly confusing the issue with internal details? There's no conceptual difference between 'passing a reference' and 'passing the value of a reference', assuming that you mean 'the value of the internal pointer to the object'.;974
+347;2008-09-08 14:58:55.513;49796;1;This is nice since you'll get forms and such intact. +1;3655
+348;2008-09-08 15:01:18.877;40810;0;+1 for [Neep by James M. Knoble](http://www.jmknoble.net/fonts/). I prefer the 12 point size.;3377
+349;2008-09-08 15:02:48.937;49802;0;Oh yeah, duh!  I fail at children's literature again;2975
+350;2008-09-08 15:05:02.690;49822;0;"did you hava a look at 37signals products like backpack or basecamp? while the ""big"" editions are useful for collaboration of geographically distant teams, the free editions should have enough features for your use case...";2992
+351;2008-09-08 15:08:31.683;49802;0;I wouldn't worry. My two toddlers make sure I'm far too familiar with the finer points of all-things Charlie and Lola.;4309
+353;2008-09-08 15:10:54.500;49665;0;http://code.google.com/tos.html doesn't seem to mention open source, but there may be something that does when you create a project. Or I might have missed it in my quick reading.;1612
+354;2008-09-08 15:13:29.643;49885;1;LINQ does not supersede ADO. It just abstracts it.;1965
+360;2008-09-08 15:33:23.200;49949;0;and as long as there is cheap hardware requiring cheap thirdparty drivers, don't expect 64bit kernels happening any time soon :-);5083
+361;2008-09-08 15:35:42.570;49949;0;64-bit Windows requires 64-bit drivers, and the kernel runs in 64-bit mode. You cannot run 32-bit drivers on 64-bit Windows. The example above is OS X, which doesn't have a separate 32- vs. 64-bit version (just the ability to run 64-bit apps on x64 w/ a 32-bit kernel).;1554
+363;2008-09-08 15:39:54.883;23353;0;No, i will not pardon the pun as it was more clever and subtle than pun.  80);730
+369;2008-09-08 15:46:05.697;49896;0;Maybe I misunderstood something, but why can't you just use scp directly? With stored keys you don't have to enter any passwords either.;1709
+370;2008-09-08 15:48:19.823;49975;2;"That's invalid CSS: '0' does not have a unit. Should just be ""border-width: 0;"".";5058
+372;2008-09-08 15:55:06.237;50001;1;This seems to be dependant on loading a regular Dll not a .net assembly.;567
+373;2008-09-08 15:56:35.560;49973;0;I'm pretty sure there's an easier way that doesn't require dasBlog source.  I'll keep it in mind, though, in case I'm wrong.;3381
+375;2008-09-08 16:03:08.963;49109;0;Sorry, but that doesn't work in ActionScript;1815
+376;2008-09-08 16:07:44.677;49981;0;"attention: Your <img> tag is not correct. Either you have to use "" to quote the border attribute value (because XML requires that), or you have to remove the / before the ending > (because SGML/HTML doesn't allow that)";5083
+377;2008-09-08 16:12:45.587;50058;1;I am not having any real assembly loading problems. I am trying to understand the search/load order from an academic perspective.;3619
+378;2008-09-08 16:14:26.797;50058;0;And you're right about '%path%'... I had mistaken this from some work with p/invoke calls (I used '%path%' to simplify the 'DllImportAttribute' use).;3619
+381;2008-09-08 16:27:53.317;50061;0;The decision not to upgrade is because of lack of (programmer) resources.  It works, and only needs minimal support so we don't want to touch it at this point.;770
+390;2008-09-08 16:52:18.347;50130;0;Wow really, just out of curiosity what products have you seen this with. Often i have had licenses transferred from my name to a company name and have yet to pay any transfer fee.;5119
+393;2008-09-08 16:57:04.887;50140;0;The cases are locations so location 1-200+   ** I did not write the code :D **;3208
+394;2008-09-08 17:01:25.670;46940;1;I can understand the argument that the user of Animal should only know about Leg objects, but I'm less convinced that this should be hidden from the users of the Dog class.;327
+400;2008-09-08 17:10:58.987;50128;0;That worked.   Thanks, your the man. I just couldn't find where to get current device from.;3415
+401;2008-09-08 17:12:55.143;48684;11;Wow! Thanks. Didn't realize that jQuery abstracted that so well. You rock! I would think it would still have the difference between (this) and (event.target) -- being object you bound the event to vs. the object that received the event.;4489
+405;2008-09-08 17:15:49.677;45316;0;See my answer for more details, but for my simple case this was the easiest approach.;363
+406;2008-09-08 17:16:30.033;50203;0;Marshall - one of the requirements was a distributed source control. Does Tortoise support one of the SVN-based DVCSeS?;572
+408;2008-09-08 17:17:26.523;50185;0;"I had no trouble with cross-platform ASMX services--XML does quite nicely there. I understand that WCF = remoting + ASMX + MSMQ + WSE. My beef is that MS should use a little ""progressive enhancement"" to make WCF more easily approachable and my question is how! Thanks, rp";2536
+410;2008-09-08 17:26:44.457;50059;0;Mainstream support for the framework (1.1) ends at the same time;4544
